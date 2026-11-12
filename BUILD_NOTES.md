@@ -1,5 +1,13 @@
 # Build notes: OStim Beast Form - TWO Edition
 
+## 0.2 (WWF_OnTop test scenes removed)
+Same change as OStim Beast Form Merged 0.6:
+- Deleted `SKSE/Plugins/OStim/scenes/WWF_OnTop/WWFCowgirl1-1..5.json` (JSON only; 0.1 shipped no WWF HKX or FNIS lists).
+- `OBFWerewolfIdleMF`: `navigations` is empty; tags, actors and idle event unchanged, so separate female-werewolf packs can attach with `origin`.
+- `zz OStim Beast Form Merged SkyrimNet.json`: the five `WWFCowgirl1-*` descriptions removed.
+- FOMOD version 0.2. Plugins, PEX, NIF, DDS, HKX and the BFA TRI byte-identical to 0.1. Same FormIDs; saves stay compatible.
+- Release asset: `OStim_Beast_Form_TWO_0.2.zip` (same FOMOD layout: `00 Main` + `10 BFA Heads`).
+
 ## 0.1 (first public release)
 Built from the public OStim Beast Form Merged 0.5 plugin and files, re-targeted at TWO 4.1.
 

@@ -2,14 +2,7 @@
     "name": "OBFWerewolfIdleMF",
     "modpack": "OBeastLite",
     "length": 2,
-    "navigations": [
-        {
-            "destination": "WWFCowgirl1-1",
-            "description": "WW Female Cowgirl 1 (TEST)",
-            "icon": "OStim/sexual/cowgirl_mf",
-            "priority": 100
-        }
-    ],
+    "navigations": [],
     "speeds": [
         {
             "animation": "OBF_B_WW_B_FF_S1"

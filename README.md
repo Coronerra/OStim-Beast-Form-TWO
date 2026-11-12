@@ -1,6 +1,6 @@
-# OStim Beast Form - TWO Edition 0.1
+# OStim Beast Form - TWO Edition 0.2
 
-> **Download:** [v0.1 release](https://github.com/Coronerra/OStim-Beast-Form-TWO/releases/tag/v0.1) → `OStim_Beast_Form_TWO_0.1.zip` (MO2 / FOMOD installer).
+> **Download:** [v0.2 release](https://github.com/Coronerra/OStim-Beast-Form-TWO/releases/tag/v0.2) → `OStim_Beast_Form_TWO_0.2.zip` (MO2 / FOMOD installer).
 > This repo holds the open-source parts (Papyrus sources, OStim JSON, SkyrimNet bundles, FOMOD, docs). AI assistants: start with **[AI_CONTEXT.md](AI_CONTEXT.md)**. Build details: [BUILD_NOTES.md](BUILD_NOTES.md). License: [MIT for That Guy (Coronerra)'s work; third-party assets belong to their authors](LICENSE).
 
 **Skyrim SE / AE · OStim Standalone · ESL-flagged plugin · for TWO - Total Werewolf Overhaul 4.1 · by That Guy (Coronerra)**
@@ -13,9 +13,9 @@ There are three related projects. **Use exactly one of them.**
 
 | You use… | Get this |
 |---|---|
-| Growl + the HDT Werewolves / ABC look | **[OStim Beast Form Merged 0.5](https://github.com/Coronerra/OStim-Beast-Form-Merged)** (main Growl edition) |
-| **TWO 4.1, no Growl needed** | **This repo: OStim Beast Form - TWO Edition** |
-| Growl + OStim Beast Form Merged 0.5 already, and you want TWO bodies **without losing your save** | **[OStim Beast Form Merged - TWO Patch](https://github.com/Coronerra/OStim-Beast-Form-Merged-TWO-Patch)** |
+| Growl + the HDT Werewolves / ABC look | **[OStim Beast Form Merged 0.6](https://github.com/Coronerra/OStim-Beast-Form-Merged)** (main Growl edition; [v0.6 release](https://github.com/Coronerra/OStim-Beast-Form-Merged/releases/tag/v0.6)) |
+| **TWO 4.1, no Growl needed** | **This repo: OStim Beast Form - TWO Edition 0.2** ([v0.2 release](https://github.com/Coronerra/OStim-Beast-Form-TWO/releases/tag/v0.2)) |
+| Growl + OStim Beast Form Merged (0.5 or 0.6) already, and you want TWO bodies **without losing your save** | **[OStim Beast Form Merged - TWO Patch 0.1](https://github.com/Coronerra/OStim-Beast-Form-Merged-TWO-Patch)** ([v0.1 release](https://github.com/Coronerra/OStim-Beast-Form-Merged-TWO-Patch/releases/tag/v0.1)) |
 
 **Never use the TWO Edition together with the Merged TWO Patch, and never enable it together with OStim Beast Form Merged.** They share the same scripts.
 
@@ -25,7 +25,7 @@ A **new game is recommended** if your save ever ran the Growl edition (see [New 
 
 ## What this is
 
-The same OStim Beast Form features as the Growl edition (OStim Beast Form Merged 0.5), built for people who use **TWO - Total Werewolf Overhaul 4.1** by **Frosferes**. TWO keeps its look: its bodies, heads, BodySlide builds, skeleton, SMP physics and textures (including TWO Alternate Textures) are not replaced or edited. This mod ships **no** werewolf body, head, skeleton or werewolf texture, and **no file from TWO**. You need your own copy of TWO 4.1.
+The same OStim Beast Form features as the Growl edition (OStim Beast Form Merged 0.6), built for people who use **TWO - Total Werewolf Overhaul 4.1** by **Frosferes**. TWO keeps its look: its bodies, heads, BodySlide builds, skeleton, SMP physics and textures (including TWO Alternate Textures) are not replaced or edited. This mod ships **no** werewolf body, head, skeleton or werewolf texture, and **no file from TWO**. You need your own copy of TWO 4.1.
 
 ### Carried over from the Growl edition
 - Start OStim scenes while you are a werewolf (hotkey in the MCM), with the beast-form timer paused during scenes (`PlayerWerewolfShiftBackTime`).
@@ -42,6 +42,22 @@ The same OStim Beast Form features as the Growl edition (OStim Beast Form Merged
 - **No Growl and no JS Emissive Eyes requirement.** TWO's own eyes are used for werewolves. Vampire Lords lose the JS Emissive Eyes glow if you use that mod, because this plugin's Vampire Lord race record wins.
 - The werewolf race record is **not edited at all**, so TWO's `Werewolves.esp` (or TWO's Growl / Moonlight Tales patch) keeps control of it.
 - Better Facial Animations (BFA) support is an optional add-on (see [BFA heads](#optional-bfa-heads)).
+
+### Female werewolf scenes
+Female werewolf scenes are **not bundled**. Since 0.2 the experimental WWF_OnTop female cowgirl test scenes are gone. Separate, optional female-werewolf scene packs (for example, an OStim conversion of **Dayelyte's** female werewolf animations) add their own button to the female werewolf hubs. Without one, the female werewolf + man hub is an idle with no buttons.
+
+---
+
+## Changelog
+
+**0.2**
+- Removed the experimental WWF_OnTop female cowgirl test scenes (`WWFCowgirl1-1` to `1-5`) and their "WW Female Cowgirl 1 (TEST)" button on the female werewolf + man hub (`OBFWerewolfIdleMF`), plus their OStimNet descriptions. Same change as OStim Beast Form Merged 0.6.
+- Female werewolf scenes come from separate, optional packs (not bundled).
+- Docs and the "Which download is for you?" table now point at Merged 0.6 and the Merged TWO Patch 0.1.
+- Plugins, FormIDs, masters, scripts, meshes and HKX are byte-identical to 0.1. Saves stay compatible. No Pandora run needed.
+- **Updating from 0.1:** reinstall with the FOMOD as a clean replacement (MO2: "Replace"), or delete the old `SKSE/Plugins/OStim/scenes/WWF_OnTop` folder in the mod first.
+
+**0.1** — first public release.
 
 ---
 

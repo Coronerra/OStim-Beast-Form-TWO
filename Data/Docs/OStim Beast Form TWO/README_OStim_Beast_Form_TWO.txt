@@ -1,24 +1,44 @@
-OStim Beast Form - TWO Edition 0.1 (Skyrim SE / AE)
+OStim Beast Form - TWO Edition 0.2 (Skyrim SE / AE)
 by That Guy (Coronerra)
 https://github.com/Coronerra/OStim-Beast-Form-TWO
 
 WHICH DOWNLOAD IS FOR YOU?
 --------------------------
 There are three related downloads. Use exactly ONE of them:
-- OStim Beast Form Merged 0.5 (Growl edition): you use Growl and the HDT
+- OStim Beast Form Merged 0.6 (Growl edition): you use Growl and the HDT
   Werewolves / ABC look.  https://github.com/Coronerra/OStim-Beast-Form-Merged
-- OStim Beast Form - TWO Edition (THIS ONE): you use TWO - Total Werewolf
+- OStim Beast Form - TWO Edition 0.2 (THIS ONE): you use TWO - Total Werewolf
   Overhaul 4.1 and you do NOT need Growl.
-- OStim Beast Form Merged - TWO Patch: you already play OStim Beast Form
-  Merged 0.5 with Growl and want TWO's bodies without losing your save.
+- OStim Beast Form Merged - TWO Patch 0.1: you already play OStim Beast Form
+  Merged (0.5 or 0.6) with Growl and want TWO's bodies without losing your save.
   https://github.com/Coronerra/OStim-Beast-Form-Merged-TWO-Patch
 The TWO Edition and the TWO Patch must NEVER be used together, and the TWO
 Edition must never be enabled together with OStim Beast Form Merged.
 
+0.2 CHANGELOG
+-------------
+- Removed the experimental WWF_OnTop female cowgirl test scenes
+  (SKSE/Plugins/OStim/scenes/WWF_OnTop/WWFCowgirl1-1..5.json) and their
+  "WW Female Cowgirl 1 (TEST)" button on the female werewolf + man hub
+  (OBFWerewolfIdleMF), plus their five OStimNet descriptions. Same change
+  as OStim Beast Form Merged 0.6.
+- Female werewolf scenes are not bundled. They come from separate, optional
+  female-werewolf scene packs (for example an OStim conversion of Dayelyte's
+  female werewolf animations), which add their own button to the female
+  werewolf hubs. Without one, the female werewolf + man hub is an idle with
+  no buttons.
+- Docs and the "which download is for you?" list point at Merged 0.6 and the
+  Merged TWO Patch 0.1.
+- Plugins, FormIDs, masters, scripts, meshes and HKX are byte-identical to
+  0.1. Saves stay compatible. No Pandora run needed for this update.
+UPDATING FROM 0.1: reinstall with the FOMOD as a clean replacement (MO2:
+"Replace"), or delete the old SKSE/Plugins/OStim/scenes/WWF_OnTop folder in
+the mod before installing 0.2 over it.
+
 WHAT THIS IS
 ------------
 The same OStim Beast Form features as the Growl edition (OStim Beast Form
-Merged 0.5), built for people who use TWO - Total Werewolf Overhaul 4.1 by
+Merged 0.6), built for people who use TWO - Total Werewolf Overhaul 4.1 by
 Frosferes. TWO keeps its look: its bodies, heads, BodySlide builds, skeleton,
 SMP physics and textures (including TWO Alternate Textures) are not replaced
 or edited. This mod ships no werewolf body, head, skeleton or werewolf

@@ -1,0 +1,15 @@
+OStim Beast Form TWO Edition 0.2 static checks
+scene JSONs: 294  hubs(tagged hub): 7  random starts: 7
+sex/stage scenes (non-idle, random-selectable): 98  reachable from a start hub: 98
+broken navigation targets: 0 []
+WWF_OnTop / WWFCowgirl files or scene refs left: 0 []
+OBFWerewolfIdleMF navigations: []  tags: ['idle', 'intro', 'creature', 'werewolf', 'hub']
+Dayelyte / DayelyteFemWW files in package: 0
+  hub OBFWerewolfIdleMF: own=0 origin_pages=[] random=True
+  hub OCrVampireLordIdleFM: own=3 origin_pages=['BakaOVampireLordHubFM', 'BillyyVampireLordHubFM', 'FBCOMCVampireLordHubFM'] random=True
+  hub OCrWerewolfIdleFFM: own=1 origin_pages=['BillyyWerewolfHubFFM'] random=True
+  hub OCrWerewolfIdleFM: own=3 origin_pages=['BakaOWerewolfHubFM', 'BillyyWerewolfHubFM', 'FlufyOWerewolfHubFM'] random=True
+  hub OCrWerewolfIdleFMM: own=1 origin_pages=['BillyyWerewolfHubFMM'] random=True
+  hub OCrWerewolfIdleFMMM: own=1 origin_pages=['BillyyWerewolfHubFMMM'] random=True
+  hub OCrWerewolfIdleFMMMM: own=1 origin_pages=['BillyyWerewolfHubFMMMM'] random=True
+Plugins/PEX/NIF/DDS/HKX/TRI: byte-identical to 0.1 (compared file by file).

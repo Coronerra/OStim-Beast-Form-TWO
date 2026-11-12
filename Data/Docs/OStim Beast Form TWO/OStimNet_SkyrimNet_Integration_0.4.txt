@@ -9,8 +9,8 @@ What OStimNet actually uses (read from OStimNet 2.5.7 source + OStim NG 7.5.1c)
   player's own OStim menu. noRandomSelection pages and idle scenes are never picked.
 - Actor order: OStim sorts penis-havers first, then matches actor slots in order.
   Male WW/VL player + woman -> WW/VL slot 0 -> Beast Form/Billyy/Baka/Fluffy/FunnyBiz
-  scenes match. Female WW player + man -> man sorted first -> WWF_OnTop scenes
-  (female WW in slot 0) cannot be picked by OStimNet; use the hub for those.
+  scenes match. Female WW player + man -> man sorted first. (0.6 / TWO 0.2: the experimental WWF_OnTop
+  test scenes this note referred to were removed.)
 - Intents live in scene tags (Navigator copies them from the ONE
   OStimNetMetaData.json). Untagged = usable by every intent.
 - Descriptions: every *.json in SKSE/Plugins/OStimNet/animationsDescriptions is loaded.
@@ -21,14 +21,13 @@ What OStimNet actually uses (read from OStimNet 2.5.7 source + OStim NG 7.5.1c)
 What 0.4 adds
 1. SKSE/Plugins/OStimNet/animationsDescriptions/zz OStim Beast Form Merged SkyrimNet.json
    20 descriptions for Beast Form's OWN scenes only: OBFWerewolfIdleMF hub, the 14
-   OBF*/OBL* forwarding pages, and WWFCowgirl1-1..5 (their custom 'wwfvaginalsex'
-   action has no Navigator phrase, so auto descriptions were blank/wrong).
+   OBF*/OBL* forwarding pages, and the WWF_OnTop test scenes (TWO 0.2: those five
+   test-scene descriptions were removed with the scenes; 15 remain).
    NOT included: OCrWerewolfIdle*/OCrVampireLordIdleFM (already described by
    "zz OCreatures Reforged SkyrimNet Patch.json"; same pose, kept), and every
    Billyy/Baka/FluffyFox/FunnyBiz sex scene (Lirael patches own those).
-2. Intent tag "lustful" on WWFCowgirl1-1/2/4/5 (female werewolf rides a passive man:
-   she is in control -> lustful, per coronerra/Lirael rules). Stage 3 keeps its existing
-   "romantic" tag. Idles/hubs get no intent (an intent tag would hide them).
+2. (TWO 0.2: the intent tags on the removed WWF_OnTop test scenes are gone with them.)
+   Idles/hubs get no intent (an intent tag would hide them).
    No OStimNetMetaData.json is shipped (it would replace OStimNet's/Lirael's file).
 3. SkyrimNet bundle coronerra.beastform_ostimnet (prompt only, nsfw):
    prompts/submodules/user_final_instructions/0510_beastform_ostimnet_partner.prompt
