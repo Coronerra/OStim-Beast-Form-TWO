@@ -6,6 +6,7 @@ For AI assistants, bots and modders who want to understand or extend this mod qu
 - **This repo:** standalone edition for TWO users who do not need Growl. Plugin `OStim_Beast_Form_TWO.esp`.
 - **[OStim-Beast-Form-Merged](https://github.com/Coronerra/OStim-Beast-Form-Merged):** the main Growl edition (`OStim_Beast_Form_Merged.esp`).
 - **[OStim-Beast-Form-Merged-TWO-Patch](https://github.com/Coronerra/OStim-Beast-Form-Merged-TWO-Patch):** a small save-safe patch that puts TWO bodies on the Growl edition.
+- **[OStim-Beast-Form-TWO-Herm-Patch](https://github.com/Coronerra/OStim-Beast-Form-TWO-Herm-Patch):** optional add-on (own ESL, master `Skyrim.esm` only) for TWO Extras' herm / urta player werewolf; sits on Merged + TWO Patch or on the TWO Edition. Not tested by the author; problems go to the LoversLab support section of OStim Beast Form Merged.
 - The three setups are mutually exclusive. This edition and the Growl edition use the same script names and local FormIDs, so they must never both be enabled.
 - This repo exists separately so it can be removed on request from Frosferes without touching the main project. Never add TWO files to it.
 

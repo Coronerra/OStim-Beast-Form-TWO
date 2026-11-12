@@ -9,15 +9,18 @@
 
 ## ⚠️ Which download is for you?
 
-There are three related projects. **Use exactly one of them.**
+There are three related projects. **Use exactly one of them.** One optional add-on (last row) can go on top.
 
 | You use… | Get this |
 |---|---|
 | Growl + the HDT Werewolves / ABC look | **[OStim Beast Form Merged 0.6](https://github.com/Coronerra/OStim-Beast-Form-Merged)** (main Growl edition; [v0.6 release](https://github.com/Coronerra/OStim-Beast-Form-Merged/releases/tag/v0.6)) |
 | **TWO 4.1, no Growl needed** | **This repo: OStim Beast Form - TWO Edition 0.2** ([v0.2 release](https://github.com/Coronerra/OStim-Beast-Form-TWO/releases/tag/v0.2)) |
 | Growl + OStim Beast Form Merged (0.5 or 0.6) already, and you want TWO bodies **without losing your save** | **[OStim Beast Form Merged - TWO Patch 0.1](https://github.com/Coronerra/OStim-Beast-Form-Merged-TWO-Patch)** ([v0.1 release](https://github.com/Coronerra/OStim-Beast-Form-Merged-TWO-Patch/releases/tag/v0.1)) |
+| *Optional add-on:* either TWO setup above, **and you use TWO Extras' herm or urta player werewolf** | **[OStim Beast Form TWO Herm Patch 0.1](https://github.com/Coronerra/OStim-Beast-Form-TWO-Herm-Patch)** ([v0.1 release](https://github.com/Coronerra/OStim-Beast-Form-TWO-Herm-Patch/releases/tag/v0.1)) on top. Optional; needs TWO Extras. |
 
 **Never use the TWO Edition together with the Merged TWO Patch, and never enable it together with OStim Beast Form Merged.** They share the same scripts.
+
+**Optional: TWO herm / urta player werewolf.** If you use TWO's herm or urta player werewolf (TWO Extras' "Toggle Herm Werewolf" spell), you can also add the **[OStim Beast Form TWO Herm Patch 0.1](https://github.com/Coronerra/OStim-Beast-Form-TWO-Herm-Patch)** ([v0.1 release](https://github.com/Coronerra/OStim-Beast-Form-TWO-Herm-Patch/releases/tag/v0.1)). It is optional and sits on top of Merged 0.6 + the Merged TWO Patch, or on the TWO Edition 0.2. It needs TWO Extras (and TWO's `WerewolvesExtrasGrowl.esp` if you use Growl). I am not going to test this myself. If you use TWO's herm or urta werewolf, please test it and report any problems in the support section of the [OStim Beast Form Merged](https://www.loverslab.com/files/file/52768-ostim-beast-form-merged/) page on LoversLab.
 
 A **new game is recommended** if your save ever ran the Growl edition (see [New game?](#new-game)).
 
@@ -49,6 +52,9 @@ Female werewolf scenes are **not bundled**. Since 0.2 the experimental WWF_OnTop
 ---
 
 ## Changelog
+
+**Docs update (no new zip)**
+- The "Which download is for you?" table now points at the optional [OStim Beast Form TWO Herm Patch 0.1](https://github.com/Coronerra/OStim-Beast-Form-TWO-Herm-Patch) for TWO's herm / urta player werewolf. I am not going to test this myself. If you use TWO's herm or urta werewolf, please test it and report any problems in the support section of the [OStim Beast Form Merged](https://www.loverslab.com/files/file/52768-ostim-beast-form-merged/) page on LoversLab.
 
 **0.2**
 - Removed the experimental WWF_OnTop female cowgirl test scenes (`WWFCowgirl1-1` to `1-5`) and their "WW Female Cowgirl 1 (TEST)" button on the female werewolf + man hub (`OBFWerewolfIdleMF`), plus their OStimNet descriptions. Same change as OStim Beast Form Merged 0.6.
