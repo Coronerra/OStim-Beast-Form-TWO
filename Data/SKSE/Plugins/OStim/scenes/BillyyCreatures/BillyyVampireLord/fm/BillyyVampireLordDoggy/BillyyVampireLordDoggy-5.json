@@ -1,0 +1,74 @@
+{
+ "name": "Billyy (Vampire Lord) Doggy",
+ "modpack": "BillyyCreatures",
+ "length": 8,
+ "navigations": [
+  {
+   "destination": "BillyyVampireLordDoggy-4",
+   "description": "Back",
+   "icon": "OStim/symbols/previous"
+  },
+  {
+   "destination": "BillyyVampireLordHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrVampireLordIdleFM",
+   "description": "Vampire Lord Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "B_Vamp_B_Dog_S5"
+  }
+ ],
+ "actors": [
+  {
+   "type": "VampireLord",
+   "intendedSex": "male",
+   "tags": [
+    "standing",
+    "climaxing"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "allfours",
+    "climaxing"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "type": "vaginalsex",
+   "actor": 0,
+   "target": 1
+  }
+ ],
+ "tags": [
+  "billyy",
+  "creature",
+  "vampirelords",
+  "vampirelord",
+  "bestiality",
+  "cf",
+  "rough",
+  "doggy",
+  "doggystyle",
+  "dirty",
+  "creampie",
+  "vaginal",
+  "movingdick",
+  "abc",
+  "lustful"
+ ],
+ "noRandomSelection": true,
+ "destination": "BillyyVampireLordDoggy-4"
+}

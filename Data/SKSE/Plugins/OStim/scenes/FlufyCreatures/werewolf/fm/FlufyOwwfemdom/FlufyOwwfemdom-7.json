@@ -1,0 +1,75 @@
+{
+ "name": "FlufyFox Werewolf FemDom 1 7",
+ "modpack": "FlufyCreatures",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "FlufyOwwfemdom-8",
+   "description": "Next (Climax)",
+   "icon": "OStim/symbols/climax"
+  },
+  {
+   "destination": "FlufyOWerewolfHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "FlufyO_wwfemdom_S7"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "requirements": [
+    "penis"
+   ],
+   "autoTransitions": {
+    "climax": "FlufyOwwfemdom-8"
+   }
+  },
+  {
+   "intendedSex": "female",
+   "autoTransitions": {
+    "climax": "FlufyOwwfemdom-8"
+   }
+  }
+ ],
+ "actions": [
+  {
+   "type": "vaginalsex",
+   "actor": 0,
+   "target": 1,
+   "performer": 0
+  },
+  {
+   "type": "handjob",
+   "actor": 1,
+   "target": 0,
+   "performer": 1
+  }
+ ],
+ "tags": [
+  "abc",
+  "bestiality",
+  "cf",
+  "cowgirl",
+  "creature",
+  "female domanation",
+  "femdom",
+  "flufyfox",
+  "footjob",
+  "handjob",
+  "vaginal",
+  "werewolf",
+  "lustful"
+ ]
+}

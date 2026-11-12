@@ -1,0 +1,91 @@
+{
+ "name": "Billyy (Werewolf) 3p Holding DP",
+ "modpack": "BillyyCreatures",
+ "length": 8,
+ "navigations": [
+  {
+   "destination": "BillyyWerewolf3pHoldingDP-5",
+   "description": "Back",
+   "icon": "OStim/symbols/previous"
+  },
+  {
+   "destination": "BillyyWerewolfHubFMM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFMM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "B_WW_B_3pHoldDP_S6"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing",
+    "climaxing"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing",
+    "climaxing"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "standing",
+    "climaxing"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "type": "analsex",
+   "actor": 0,
+   "target": 2
+  }
+ ],
+ "tags": [
+  "billyy",
+  "creature",
+  "werewolves",
+  "werewolf",
+  "bestiality",
+  "ccf",
+  "threesome",
+  "dirty",
+  "doublepen",
+  "standing",
+  "holding",
+  "kissing",
+  "rough",
+  "knotted",
+  "creampie",
+  "analcreampie",
+  "movingdick",
+  "abc",
+  "vaginal",
+  "anal",
+  "lustful"
+ ],
+ "noRandomSelection": true,
+ "destination": "BillyyWerewolf3pHoldingDP-5"
+}

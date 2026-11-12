@@ -1,0 +1,76 @@
+{
+ "name": "Billyy (Werewolf) Handjob Standing",
+ "modpack": "BillyyCreatures",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "BillyyWerewolfHandjobStanding-4",
+   "description": "Next",
+   "icon": "OStim/symbols/next"
+  },
+  {
+   "destination": "BillyyWerewolfHandjobStanding-2",
+   "description": "Back",
+   "icon": "OStim/symbols/previous"
+  },
+  {
+   "destination": "BillyyWerewolfHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "B_WW_B_HJSr_S3"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "standing"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "type": "handjob",
+   "actor": 0,
+   "target": 1
+  }
+ ],
+ "tags": [
+  "billyy",
+  "creature",
+  "werewolves",
+  "werewolf",
+  "bestiality",
+  "cf",
+  "dirty",
+  "standing",
+  "handjob",
+  "aircum",
+  "wastedcum",
+  "femdom",
+  "movingdick",
+  "abc",
+  "dom"
+ ],
+ "noRandomSelection": true
+}

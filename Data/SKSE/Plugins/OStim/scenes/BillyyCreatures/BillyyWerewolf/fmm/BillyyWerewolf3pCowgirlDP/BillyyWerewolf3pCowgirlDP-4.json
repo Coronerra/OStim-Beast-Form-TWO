@@ -1,0 +1,100 @@
+{
+ "name": "Billyy (Werewolf) 3p Cowgirl DP",
+ "modpack": "BillyyCreatures",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "BillyyWerewolf3pCowgirlDP-5",
+   "description": "Next(climax)",
+   "icon": "OStim/symbols/climax"
+  },
+  {
+   "destination": "BillyyWerewolf3pCowgirlDP-3",
+   "description": "Back",
+   "icon": "OStim/symbols/previous"
+  },
+  {
+   "destination": "BillyyWerewolfHubFMM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFMM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "B_WW_B_3pCG_S4"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing"
+   ],
+   "requirements": [
+    "penis"
+   ],
+   "autoTransitions": {
+    "climax": "BillyyWerewolf3pCowgirlDP-5"
+   }
+  },
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing"
+   ],
+   "requirements": [
+    "penis"
+   ],
+   "autoTransitions": {
+    "climax": "BillyyWerewolf3pCowgirlDP-5"
+   }
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "kneeling"
+   ],
+   "autoTransitions": {
+    "climax": "BillyyWerewolf3pCowgirlDP-5"
+   }
+  }
+ ],
+ "actions": [
+  {
+   "type": "analsex",
+   "actor": 0,
+   "target": 2
+  }
+ ],
+ "tags": [
+  "billyy",
+  "creature",
+  "werewolves",
+  "werewolf",
+  "bestiality",
+  "ccf",
+  "threesome",
+  "dirty",
+  "doublepen",
+  "cowgirl",
+  "handjob",
+  "blowjob",
+  "knotted",
+  "creampie",
+  "analcreampie",
+  "movingdick",
+  "abc",
+  "vaginal",
+  "anal",
+  "lustful"
+ ],
+ "noRandomSelection": true
+}

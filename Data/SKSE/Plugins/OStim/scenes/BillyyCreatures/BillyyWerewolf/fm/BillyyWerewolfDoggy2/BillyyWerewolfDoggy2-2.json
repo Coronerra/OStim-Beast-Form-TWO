@@ -1,0 +1,77 @@
+{
+ "name": "Billyy (Werewolf) Doggy 2",
+ "modpack": "BillyyCreatures",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "BillyyWerewolfDoggy2-3",
+   "description": "Next",
+   "icon": "OStim/symbols/next"
+  },
+  {
+   "destination": "BillyyWerewolfDoggy2-1",
+   "description": "Back",
+   "icon": "OStim/symbols/previous"
+  },
+  {
+   "destination": "BillyyWerewolfHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "B_WW_B_Dog2_S2"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "allfours"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "type": "vaginalsex",
+   "actor": 0,
+   "target": 1
+  }
+ ],
+ "tags": [
+  "billyy",
+  "creature",
+  "werewolves",
+  "werewolf",
+  "bestiality",
+  "cf",
+  "dirty",
+  "doggy",
+  "doggystyle",
+  "rough",
+  "creampie",
+  "knotted",
+  "movingdick",
+  "abc",
+  "vaginal",
+  "lustful"
+ ],
+ "noRandomSelection": true
+}

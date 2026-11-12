@@ -1,0 +1,19 @@
+{
+	"condition": {
+		"info": "OBL_WerewolfFemaleCondition",
+		"mod": "OStim_Beast_Form_TWO.esp",
+		"formid": "0x811"
+	},
+	"type": "Werewolf",
+	"requirements": {
+		"penis": false,
+		"testicles": false,
+		"vagina": true,
+		"breast": true,
+		"nipple": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

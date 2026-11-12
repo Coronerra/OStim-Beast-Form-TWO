@@ -1,0 +1,40 @@
+{
+ "name": "OBFVampireLordIdleFM",
+ "modpack": "OBeastLite",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "OCrVampireLordIdleFM",
+   "description": "Vampire Lord Hub",
+   "icon": "OBeastLite/hub/hub"
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "OBF_B_Vamp_B_Dog_S1"
+  }
+ ],
+ "actors": [
+  {
+   "type": "VampireLord",
+   "intendedSex": "male",
+   "requirements": [
+    "penis"
+   ],
+   "tags": [
+    "standing"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "standing"
+   ]
+  }
+ ],
+ "tags": [
+  "creature",
+  "VampireLord"
+ ],
+ "noRandomSelection": true
+}

@@ -1,0 +1,9 @@
+0.2 ANIMATION ATTRIBUTION
+Billyy authored these stage-1 poses, extracted from OCreatures Reforged
+(Lirael Atelier). Billyy has given full permission to include and
+redistribute them in this mod.
+
+0.2 folder/project: OBFMerged. Event names: OBF_B_*, uniquely renamed from
+Lite/OCR/Billyy B_* events. These renamed fallback lists coexist with OCR;
+do not hide the whole meshes folder (it also contains the required bodies).
+Regenerate Pandora/FNIS after installing them.

@@ -1,0 +1,45 @@
+MIT License
+
+Copyright (c) 2026 That Guy (Coronerra)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+SCOPE OF THIS LICENSE / THIRD-PARTY ASSETS
+
+The MIT license above covers only the work made by That Guy (Coronerra):
+the plugin records he authored, the Papyrus scripts, the SkyrimNet prompt
+bundles, the OStim actor-property, hub and forwarding-scene JSON written for
+this mod, the FOMOD, the documentation and the build notes.
+
+Third-party assets and data remain the property of their original authors and
+are NOT relicensed by this file. This includes (but is not limited to):
+- TWO - Total Werewolf Overhaul (Frosferes). No TWO file is shipped here; the
+  plugins only reference TWO's paths and records. The optional
+  ExpHeadWerewolf_BFA.tri is a modified copy of TWO's expression TRI, which
+  is based on Monster Facial Animation morphs by TealEri (aka CinnaMewRoll).
+  It remains their work; it is not MIT.
+- Meshes, textures, animations and scene data carried over from OStim Beast
+  Form Merged 0.5 (Vampire Lord files, OCum files, Billyy fallback poses),
+  derived from: Animated Beast's Cocks (BakaFactory), More Nasty Critters,
+  Monster Facial Animation, Better Facial Animations (Cyberquach), OCum
+  Ascended (Aietos et al.), and the animation packs by Billyy, BakaFactory,
+  FlufyFox and FunnyBiz as converted by Lirael Atelier. Billyy has given full
+  permission for the Billyy-derived files used here.
+Ask the respective authors before redistributing their work.

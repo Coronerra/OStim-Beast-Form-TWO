@@ -1,0 +1,71 @@
+{
+ "name": "FunnyBizness Vampire Lord Brutal 4",
+ "modpack": "FunnyBizCreatures",
+ "length": 1.466667,
+ "speeds": [
+  {
+   "animation": "FBCO_VampLordBrutal_S4"
+  }
+ ],
+ "actors": [
+  {
+   "type": "VampireLord",
+   "intendedSex": "male",
+   "requirements": [
+    "penis"
+   ],
+   "tags": [
+    "dominant",
+    "climaxing"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "standing",
+    "submissive",
+    "climaxing"
+   ],
+   "feetOnGround": true
+  }
+ ],
+ "actions": [
+  {
+   "type": "vaginalsex",
+   "actor": 0,
+   "target": 1,
+   "performer": 0
+  }
+ ],
+ "tags": [
+  "funnybizness",
+  "forced",
+  "creature",
+  "mc",
+  "vampire",
+  "beastility",
+  "dirty",
+  "aggressive",
+  "aggressivedefault",
+  "rough",
+  "vaginal",
+  "standing",
+  "behind",
+  "vampirelord",
+  "funnybiz",
+  "packmalecreatures",
+  "converted",
+  "slal",
+  "transition"
+ ],
+ "noRandomSelection": true,
+ "destination": "FBCOVampLordBrutal-3",
+ "navigations": [
+  {
+   "destination": "OCrVampireLordIdleFM",
+   "description": "Vampire Lord Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ]
+}

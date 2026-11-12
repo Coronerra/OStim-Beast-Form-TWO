@@ -1,0 +1,21 @@
+OStim Beast Form - TWO Edition 0.1 static checks (no game run)
+
+OStim_Beast_Form_TWO.esp: ESL flag 0x200 | masters ['Skyrim.esm', 'Update.esm', 'Dawnguard.esm', 'Dragonborn.esm', 'Werewolves.esp', 'MonsterLipSync1.esp', 'OStim.esp', 'OCum.esp'] | records 25
+  no RACE WerewolfBeastRace override: True
+  no ARMA NakedTorsoWerewolfBeast override: True
+  new records 21 local ids ['804', '805', '806', '807', '808', '810', '811', '812', '813', '820', '821', '822', '830', '831', '832', '833', '834', '835', '836', '837', '838']
+BFA add-on: ESL 0x200 | masters ['Skyrim.esm', 'MonsterLipSync1.esp', 'Werewolves.esp'] | records [('MaleHeadWerewolf', '01000800'), ('FemaleHeadWerewolf', '02000805'), ('FemaleMouthWerewolf', '02000806')]
+BFA TRI: verts 1362 | morphs 36 -> 38 | added ['browupleft', 'browupright'] | geometry identical True | original morphs identical True
+   browupleft  MaxAbs 0.950 finite True
+   browupright MaxAbs 0.862 finite True
+   blinkleft   MaxAbs 1.530 finite True
+   blinkright  MaxAbs 1.530 finite True
+   bigaah      MaxAbs 4.567 finite True
+   oohq        MaxAbs 4.091 finite True
+   moodhappy   MaxAbs 2.512 finite True
+TWO skeleton has WWD/WWLK/WWRK/WWLB/WWRB bones: True
+OCum urethra node parent string present (WWD 9): True | in TWO skeleton: True
+TWO CanineRedHard.nif bones all in TWO skeleton: True | textures ['textures\\morenastycritters\\werewolf\\werewolfballs.dds', 'textures\\morenastycritters\\werewolf\\werewolfballs_n.dds', 'textures\\morenastycritters\\werewolf\\werewolfballs_sk.dds', 'textures\\morenastycritters\\werewolf\\werewolfpenis_n.dds', 'textures\\morenastycritters\\werewolf\\werewolfpenis_red.dds', 'textures\\morenastycritters\\werewolf\\werewolfpenis_sk.dds']
+  its textures all shipped by TWO Core: True
+package main 372 unique files | byte-identical to any TWO / Alt Textures file: []
+package bfa 2 unique files | byte-identical to any TWO / Alt Textures file: []

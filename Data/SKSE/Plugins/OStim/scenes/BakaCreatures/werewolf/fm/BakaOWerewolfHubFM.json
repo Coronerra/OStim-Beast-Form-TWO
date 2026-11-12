@@ -1,0 +1,42 @@
+{
+    "name": "Baka Werewolf Hub",
+    "modpack": "BakaCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrWerewolfIdleFM",
+            "description": "Baka Werewolf Hub",
+            "icon": "OBeastLite/hub/hub"
+        },
+        {
+            "destination": "OCrWerewolfIdleFM",
+            "description": "Exit Hub",
+            "icon": "OBeastLite/hub/hub",
+            "priority": -1000
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "BakaO_WerewolfDefeated01_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "Werewolf",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ]
+        },
+        {
+            "intendedSex": "female"
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "werewolf"
+    ],
+    "noRandomSelection": true
+}

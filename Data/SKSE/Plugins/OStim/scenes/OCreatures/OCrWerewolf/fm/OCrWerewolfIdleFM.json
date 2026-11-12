@@ -1,0 +1,55 @@
+{
+    "name": "OCrWerewolfIdleFM",
+    "modpack": "OBeastLite",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BakaOWerewolfHubFM",
+            "description": "Baka Werewolf Hub",
+            "icon": "OBeastLite/hub/hub",
+            "priority": 0
+        },
+        {
+            "destination": "BillyyWerewolfHubFM",
+            "description": "BillyyWerewolfHubFM",
+            "icon": "OCreatures/werewolf/werewolf",
+            "priority": 0
+        },
+        {
+            "destination": "FlufyOWerewolfHubFM",
+            "description": "FlufyFox Werewolf Hub",
+            "icon": "OBeastLite/hub/hub",
+            "priority": 0
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "OBF_B_WW_B_Dog2_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "Werewolf",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "werewolf",
+        "hub"
+    ]
+}

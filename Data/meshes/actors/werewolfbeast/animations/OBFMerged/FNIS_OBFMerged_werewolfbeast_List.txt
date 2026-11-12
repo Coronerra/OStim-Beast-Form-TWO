@@ -1,0 +1,25 @@
+Version V1.0
+
+' OBF_B_WW_B_Dog2
+b -Tn OBF_B_WW_B_Dog2_S1_0 WW_B_Dog2_A2_S1.hkx 
+
+' OBF_B_WW_B_FF
+b -Tn OBF_B_WW_B_FF_S1_0 WW_B_FF_A2_S1.hkx 
+
+' OBF_B_WW_B_FFCServKneel
+b -Tn OBF_B_WW_B_FFCServKneel_S1_0 WW_B_FFCServKneel_A3_S1.hkx 
+
+' OBF_B_WW_B_3pHang2
+b -Tn OBF_B_WW_B_3pHang2_S1_0 WW_B_3pHang2_A2_S1.hkx 
+b -Tn OBF_B_WW_B_3pHang2_S1_2 WW_B_3pHang2_A3_S1.hkx 
+
+' OBF_B_WW_B_4pGB1
+b -Tn OBF_B_WW_B_4pGB1_S1_0 WW_B_4pGB1_A2_S1.hkx 
+b -Tn OBF_B_WW_B_4pGB1_S1_2 WW_B_4pGB1_A3_S1.hkx 
+b -Tn OBF_B_WW_B_4pGB1_S1_3 WW_B_4pGB1_A4_S1.hkx 
+
+' OBF_B_WW_B_5pGB1
+b -Tn OBF_B_WW_B_5pGB1_S1_0 WW_B_5pGB1_A2_S1.hkx 
+b -Tn OBF_B_WW_B_5pGB1_S1_2 WW_B_5pGB1_A3_S1.hkx 
+b -Tn OBF_B_WW_B_5pGB1_S1_3 WW_B_5pGB1_A4_S1.hkx 
+b -Tn OBF_B_WW_B_5pGB1_S1_4 WW_B_5pGB1_A5_S1.hkx 

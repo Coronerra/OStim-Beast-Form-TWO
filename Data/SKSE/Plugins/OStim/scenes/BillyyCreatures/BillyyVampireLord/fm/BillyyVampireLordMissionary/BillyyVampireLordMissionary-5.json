@@ -1,0 +1,74 @@
+{
+ "name": "Billyy (Vampire Lord) Missionary",
+ "modpack": "BillyyCreatures",
+ "length": 8,
+ "navigations": [
+  {
+   "destination": "BillyyVampireLordMissionary-4",
+   "description": "Back",
+   "icon": "OStim/symbols/previous"
+  },
+  {
+   "destination": "BillyyVampireLordHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrVampireLordIdleFM",
+   "description": "Vampire Lord Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "B_Vamp_B_Miss_S5"
+  }
+ ],
+ "actors": [
+  {
+   "type": "VampireLord",
+   "intendedSex": "male",
+   "tags": [
+    "standing",
+    "climaxing"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "lyingback",
+    "climaxing"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "type": "blowjob",
+   "actor": 0,
+   "target": 1
+  }
+ ],
+ "tags": [
+  "billyy",
+  "creature",
+  "vampirelords",
+  "vampirelord",
+  "bestiality",
+  "cf",
+  "missionary",
+  "laying",
+  "blowjob",
+  "dirty",
+  "creampie",
+  "vaginal",
+  "movingdick",
+  "abc",
+  "lustful"
+ ],
+ "noRandomSelection": true,
+ "destination": "BillyyVampireLordMissionary-4"
+}

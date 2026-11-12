@@ -1,0 +1,40 @@
+{
+ "name": "OBFWerewolfIdleFM",
+ "modpack": "OBeastLite",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "OCrWerewolfIdleFM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub"
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "OBF_B_WW_B_Dog2_S1"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "requirements": [
+    "penis"
+   ],
+   "tags": [
+    "standing"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "standing"
+   ]
+  }
+ ],
+ "tags": [
+  "creature",
+  "werewolf"
+ ],
+ "noRandomSelection": true
+}

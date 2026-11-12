@@ -1,0 +1,62 @@
+{
+ "name": "BaboVampire Blood Sucking 4",
+ "modpack": "BakaCreatures",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "BakaOVampireSucking-5",
+   "description": "Next",
+   "icon": "OStim/symbols/next"
+  },
+  {
+   "destination": "BakaOVampireLordHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrVampireLordIdleFM",
+   "description": "Vampire Lord Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "BakaO_VampireSucking_S4"
+  }
+ ],
+ "actors": [
+  {
+   "type": "VampireLord",
+   "intendedSex": "male",
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female"
+  }
+ ],
+ "actions": [
+  {
+   "type": "vaginalsex",
+   "actor": 0,
+   "target": 1,
+   "performer": 0
+  }
+ ],
+ "tags": [
+  "babo",
+  "bakafactory",
+  "bestiality",
+  "cf",
+  "creature",
+  "dirty",
+  "kiss",
+  "missionary",
+  "movingdick",
+  "vaginal",
+  "vampirelord",
+  "aggressive"
+ ]
+}

@@ -1,0 +1,22 @@
+{# Beast Form OStimNet Bridge (That Guy (Coronerra)) for OStim Beast Form (Growl edition 0.4+ or TWO edition). #}
+{# OStimNet lists only ActorTypeNPC races as "Available partners"; WerewolfBeastRace and DLC1VampireBeastRace lack it. #}
+{% if is_plugin_loaded("OStim_Beast_Form_Merged.esp") or is_plugin_loaded("OStim_Beast_Form_TWO.esp") %}
+{% if is_plugin_loaded("TT_OStimNet.esp") and npc.UUID != player.UUID %}
+    {% set bfo_race = decnpc(player.UUID).race %}
+    {% set bfo_form = "" %}
+    {% if bfo_race == "Werewolf" %}
+        {% set bfo_form = "werewolf" %}
+    {% endif %}
+    {% if bfo_race == "Vampire Lord" %}
+        {% set bfo_form = "Vampire Lord" %}
+    {% endif %}
+    {% if bfo_form != "" and not decnpc(npc.UUID).isVirtual and distance_between(npc.UUID, player.UUID) < 2000 %}
+        {% if ostimnet_actor_thread_id(player.UUID) == "-1" and ostimnet_actor_thread_id(npc.UUID) == "-1" and is_start_new_sex_available(npc.UUID) == "available" %}
+            ## Beast Form Partner Note
+            {{ player.name }} is nearby in {{ bfo_form }} form. OStimNet's partner list leaves out beast forms, so {{ player.name }} may be missing from "Available partners" for StartNewSex. {{ player.name }} still counts as an available partner: if {{ decnpc(npc.UUID).name }} genuinely wants sex with {{ player.name }} as they are right now, use StartNewSex with participant1 set to exactly "{{ player.name }}".
+            - Decide from {{ decnpc(npc.UUID).name }}'s own personality, relationship and feelings about a huge {{ bfo_form }}; fear, disgust or refusal are just as valid as desire. Never pick it only because this note exists.
+            - Intent for a {{ bfo_form }} encounter: lustful or dom ({{ player.name }} as the dominant beast). Use aggressive only if someone is clearly forcing it. A blowjob is always lustful. If {{ decnpc(npc.UUID).name }} takes the lead with a passive beast (stroking, riding), it is lustful, not aggressive.
+        {% endif %}
+    {% endif %}
+{% endif %}
+{% endif %}

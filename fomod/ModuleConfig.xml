@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+	<moduleName>OStim Beast Form - TWO Edition 0.1</moduleName>
+	<requiredInstallFiles>
+		<folder source="00 Main" destination="" />
+	</requiredInstallFiles>
+	<installSteps order="Explicit">
+		<installStep name="Optional">
+			<optionalFileGroups order="Explicit">
+				<group name="Better Facial Animations" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="BFA brow morphs for TWO heads">
+							<description>Adds the two brow-raise morphs Better Facial Animations needs (browupleft / browupright) to a copy of TWO's werewolf expression TRI and points TWO's male and female werewolf heads at it. Also points TWO's female werewolf mouth at TWO's own mouth expression TRI (TWO's record names a .nif there).
+TWO's head shapes, BodySlide builds and textures are unchanged.
+Only tick this if you use Better Facial Animations. The TRI is a modified copy of TWO's expression TRI (Frosferes), which is based on MFA morphs by TealEri (aka CinnaMewRoll); only the two brow morphs were added.</description>
+							<files>
+								<folder source="10 BFA Heads" destination="" />
+							</files>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="MonsterLipSync1.esp" state="Active"/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+	</installSteps>
+</config>

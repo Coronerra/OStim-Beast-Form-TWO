@@ -1,0 +1,82 @@
+{
+ "name": "FunnyBizness Vampire Lord Brutal 3",
+ "modpack": "FunnyBizCreatures",
+ "length": 6,
+ "navigations": [
+  {
+   "destination": "FBCOVampLordBrutal-4",
+   "description": "Next(climax)",
+   "icon": "OStim/symbols/climax"
+  },
+  {
+   "destination": "FBCOMCVampireLordHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrVampireLordIdleFM",
+   "description": "Vampire Lord Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "FBCO_VampLordBrutal_S3"
+  }
+ ],
+ "actors": [
+  {
+   "type": "VampireLord",
+   "intendedSex": "male",
+   "requirements": [
+    "penis"
+   ],
+   "tags": [
+    "dominant"
+   ],
+   "autoTransitions": {
+    "climax": "FBCOVampLordBrutal-4"
+   }
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "standing",
+    "submissive"
+   ],
+   "feetOnGround": true,
+   "autoTransitions": {
+    "climax": "FBCOVampLordBrutal-4"
+   }
+  }
+ ],
+ "actions": [
+  {
+   "type": "vaginalsex",
+   "actor": 0,
+   "target": 1,
+   "performer": 0
+  }
+ ],
+ "tags": [
+  "funnybizness",
+  "forced",
+  "creature",
+  "mc",
+  "vampire",
+  "beastility",
+  "dirty",
+  "aggressive",
+  "aggressivedefault",
+  "rough",
+  "vaginal",
+  "standing",
+  "behind",
+  "vampirelord",
+  "funnybiz",
+  "packmalecreatures",
+  "converted",
+  "slal"
+ ]
+}

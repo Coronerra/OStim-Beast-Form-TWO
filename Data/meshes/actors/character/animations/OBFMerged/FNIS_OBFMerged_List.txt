@@ -1,0 +1,23 @@
+Version V1.0
+
+' OBF_B_WW_B_Dog2
+b -Tn,AVbHumanoidFootIKDisable OBF_B_WW_B_Dog2_S1_1 WW_B_Dog2_A1_S1.hkx 
+
+' OBF_B_WW_B_FF
+b -Tn,AVbHumanoidFootIKDisable OBF_B_WW_B_FF_S1_1 WW_B_FF_A1_S1.hkx 
+
+' OBF_B_WW_B_FFCServKneel
+b -Tn,AVbHumanoidFootIKDisable OBF_B_WW_B_FFCServKneel_S1_1 WW_B_FFCServKneel_A1_S1.hkx 
+b -Tn,AVbHumanoidFootIKDisable OBF_B_WW_B_FFCServKneel_S1_2 WW_B_FFCServKneel_A2_S1.hkx 
+
+' OBF_B_WW_B_3pHang2
+b -Tn,AVbHumanoidFootIKDisable OBF_B_WW_B_3pHang2_S1_1 WW_B_3pHang2_A1_S1.hkx 
+
+' OBF_B_WW_B_4pGB1
+b -Tn,AVbHumanoidFootIKDisable OBF_B_WW_B_4pGB1_S1_1 WW_B_4pGB1_A1_S1.hkx 
+
+' OBF_B_WW_B_5pGB1
+b -Tn,AVbHumanoidFootIKDisable OBF_B_WW_B_5pGB1_S1_1 WW_B_5pGB1_A1_S1.hkx 
+
+' OBF_B_Vamp_B_Dog
+b -Tn,AVbHumanoidFootIKDisable OBF_B_Vamp_B_Dog_S1_1 Vamp_B_Dog_A1_S1.hkx 

@@ -1,0 +1,29 @@
+{
+    "id": "coronerra.beastform_ostimnet",
+    "type": "bundle",
+    "title": "Beast Form OStimNet Bridge",
+    "tagline": "Lets OStimNet NPCs treat a player in werewolf or Vampire Lord form as a possible partner.",
+    "description": "Prompt-only add-on for OStim Beast Form (Growl edition or TWO edition). OStimNet's nearby-partner list keeps only ActorTypeNPC races (setting 'Nearby actors humanoid only'), so a player in werewolf or Vampire Lord form is left out of StartNewSex partners even though Beast Form provides matching OStim scenes. This adds one short instruction for the speaking NPC while the player is in beast form, nearby and free: the player may still be named as a partner, NPCs decide by their own personality, and beast-form encounters lean lustful or dom (aggressive only when clearly forced). No actions, decorators, scripts or OStimNet files are replaced. Renders nothing when OStimNet is not loaded or the player is in normal form.",
+    "author": "That Guy (Coronerra)",
+    "tags": [
+        "werewolf",
+        "vampire lord",
+        "ostim",
+        "adult"
+    ],
+    "nsfw": true,
+    "version": "1.0.0",
+    "min_skyrimnet_version": "0.25.0",
+    "mods": [
+        {
+            "name": "OStim Beast Form - TWO Edition",
+            "file": "OStim_Beast_Form_TWO.esp",
+            "required": true
+        },
+        {
+            "name": "TT_OStimNet",
+            "file": "TT_OStimNet.esp",
+            "required": true
+        }
+    ]
+}

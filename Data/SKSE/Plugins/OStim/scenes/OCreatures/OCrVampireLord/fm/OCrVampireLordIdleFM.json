@@ -1,0 +1,55 @@
+{
+    "name": "OCrVampireLordIdleFM",
+    "modpack": "OBeastLite",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BakaOVampireLordHubFM",
+            "description": "Baka VampireLord Hub",
+            "icon": "OStim/sensual/vampirebite",
+            "priority": 0
+        },
+        {
+            "destination": "BillyyVampireLordHubFM",
+            "description": "BillyyVampireLordHubFM",
+            "icon": "OCreatures/VampireLord/VampireLord",
+            "priority": 0
+        },
+        {
+            "destination": "FBCOMCVampireLordHubFM",
+            "description": "FunnyBiz Male Creatures VampireLord FM",
+            "icon": "OStim/funnybizcreatures",
+            "priority": 0
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "OBF_B_Vamp_B_Dog_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "VampireLord",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "VampireLord",
+        "hub"
+    ]
+}

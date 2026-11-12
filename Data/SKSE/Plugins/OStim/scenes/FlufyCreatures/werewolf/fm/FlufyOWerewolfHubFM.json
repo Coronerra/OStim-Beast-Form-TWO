@@ -1,0 +1,42 @@
+{
+    "name": "FlufyFox Werewolf Hub",
+    "modpack": "FlufyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrWerewolfIdleFM",
+            "description": "FlufyFox Werewolf Hub",
+            "icon": "OBeastLite/hub/hub"
+        },
+        {
+            "destination": "OCrWerewolfIdleFM",
+            "description": "Exit Hub",
+            "icon": "OBeastLite/hub/hub",
+            "priority": -1000
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "FlufyO_wwfootjob_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "Werewolf",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ]
+        },
+        {
+            "intendedSex": "female"
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "werewolf"
+    ],
+    "noRandomSelection": true
+}

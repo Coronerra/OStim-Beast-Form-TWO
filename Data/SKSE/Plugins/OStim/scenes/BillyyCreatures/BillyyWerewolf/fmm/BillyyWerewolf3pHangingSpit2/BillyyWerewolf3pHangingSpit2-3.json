@@ -1,0 +1,96 @@
+{
+ "name": "Billyy (Werewolf) 3p Hanging Spit 2",
+ "modpack": "BillyyCreatures",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "BillyyWerewolf3pHangingSpit2-4",
+   "description": "Next",
+   "icon": "OStim/symbols/next"
+  },
+  {
+   "destination": "BillyyWerewolf3pHangingSpit2-2",
+   "description": "Back",
+   "icon": "OStim/symbols/previous"
+  },
+  {
+   "destination": "BillyyWerewolfHubFMM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFMM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "B_WW_B_3pHang2_S3"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing",
+    "dominant"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing",
+    "dominant"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "standing",
+    "submissive"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "type": "blowjob",
+   "actor": 0,
+   "target": 2
+  }
+ ],
+ "tags": [
+  "billyy",
+  "creature",
+  "werewolves",
+  "werewolf",
+  "bestiality",
+  "ccf",
+  "threesome",
+  "dirty",
+  "rough",
+  "forced",
+  "spitroast",
+  "hanging",
+  "standing",
+  "blowjob",
+  "knotted",
+  "creampie",
+  "cuminmouth",
+  "movingdick",
+  "abc",
+  "vaginal",
+  "oral",
+  "aggressive"
+ ],
+ "noRandomSelection": true
+}

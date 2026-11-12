@@ -1,0 +1,76 @@
+{
+ "name": "FunnyBizness Vampire Lord Brutal 2",
+ "modpack": "FunnyBizCreatures",
+ "length": 6,
+ "navigations": [
+  {
+   "destination": "FBCOVampLordBrutal-3",
+   "description": "Next",
+   "icon": "OStim/symbols/next"
+  },
+  {
+   "destination": "FBCOMCVampireLordHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrVampireLordIdleFM",
+   "description": "Vampire Lord Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "FBCO_VampLordBrutal_S2"
+  }
+ ],
+ "actors": [
+  {
+   "type": "VampireLord",
+   "intendedSex": "male",
+   "requirements": [
+    "penis"
+   ],
+   "tags": [
+    "dominant"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "standing",
+    "submissive"
+   ],
+   "feetOnGround": true
+  }
+ ],
+ "actions": [
+  {
+   "type": "vaginalsex",
+   "actor": 0,
+   "target": 1,
+   "performer": 0
+  }
+ ],
+ "tags": [
+  "funnybizness",
+  "forced",
+  "creature",
+  "mc",
+  "vampire",
+  "beastility",
+  "dirty",
+  "aggressive",
+  "aggressivedefault",
+  "rough",
+  "vaginal",
+  "standing",
+  "behind",
+  "vampirelord",
+  "funnybiz",
+  "packmalecreatures",
+  "converted",
+  "slal"
+ ]
+}

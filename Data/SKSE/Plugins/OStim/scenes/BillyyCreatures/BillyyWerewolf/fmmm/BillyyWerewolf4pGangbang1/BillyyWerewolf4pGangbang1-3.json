@@ -1,0 +1,109 @@
+{
+ "name": "Billyy (Werewolf) 4p Gangbang 1",
+ "modpack": "BillyyCreatures",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "BillyyWerewolf4pGangbang1-4",
+   "description": "Next",
+   "icon": "OStim/symbols/next"
+  },
+  {
+   "destination": "BillyyWerewolf4pGangbang1-2",
+   "description": "Back",
+   "icon": "OStim/symbols/previous"
+  },
+  {
+   "destination": "BillyyWerewolfHubFMMM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFMMM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "B_WW_B_4pGB1_S3"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "lyingback"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "type": "analsex",
+   "actor": 0,
+   "target": 3
+  }
+ ],
+ "tags": [
+  "billyy",
+  "creature",
+  "werewolves",
+  "werewolf",
+  "bestiality",
+  "cccf",
+  "gangbang",
+  "dirty",
+  "rough",
+  "doublepen",
+  "spitroast",
+  "missionary",
+  "kissing",
+  "licking",
+  "cunnilingus",
+  "handjob",
+  "blowjob",
+  "facefuck",
+  "knotted",
+  "creampie",
+  "cuminmouth",
+  "analcreampie",
+  "movingdick",
+  "abc",
+  "vaginal",
+  "oral",
+  "anal",
+  "lustful"
+ ],
+ "noRandomSelection": true
+}

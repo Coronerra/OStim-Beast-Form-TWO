@@ -1,0 +1,86 @@
+{
+ "name": "Billyy (Werewolf) Laying 69",
+ "modpack": "BillyyCreatures",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "BillyyWerewolfLaying69-5",
+   "description": "Next(climax)",
+   "icon": "OStim/symbols/climax"
+  },
+  {
+   "destination": "BillyyWerewolfLaying69-3",
+   "description": "Back",
+   "icon": "OStim/symbols/previous"
+  },
+  {
+   "destination": "BillyyWerewolfHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "B_WW_B_Lay69_S4"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing"
+   ],
+   "requirements": [
+    "penis"
+   ],
+   "autoTransitions": {
+    "climax": "BillyyWerewolfLaying69-5"
+   }
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "lyingback"
+   ],
+   "autoTransitions": {
+    "climax": "BillyyWerewolfLaying69-5"
+   }
+  }
+ ],
+ "actions": [
+  {
+   "type": "blowjob",
+   "actor": 0,
+   "target": 1
+  }
+ ],
+ "tags": [
+  "billyy",
+  "creature",
+  "werewolves",
+  "werewolf",
+  "bestiality",
+  "cf",
+  "dirty",
+  "laying",
+  "69",
+  "cunnilingus",
+  "handjob",
+  "blowjob",
+  "knotted",
+  "cuminmouth",
+  "movingdick",
+  "abc",
+  "oral",
+  "sixtynine",
+  "lustful"
+ ],
+ "noRandomSelection": true
+}

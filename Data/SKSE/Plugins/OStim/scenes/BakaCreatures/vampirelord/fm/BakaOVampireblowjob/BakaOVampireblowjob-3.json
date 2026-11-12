@@ -1,0 +1,62 @@
+{
+ "name": "BaboVampire Blowjob 3",
+ "modpack": "BakaCreatures",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "BakaOVampireblowjob-4",
+   "description": "Next",
+   "icon": "OStim/symbols/next"
+  },
+  {
+   "destination": "BakaOVampireLordHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrVampireLordIdleFM",
+   "description": "Vampire Lord Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "BakaO_Vampireblowjob_S3"
+  }
+ ],
+ "actors": [
+  {
+   "type": "VampireLord",
+   "intendedSex": "male",
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female"
+  }
+ ],
+ "actions": [
+  {
+   "type": "blowjob",
+   "actor": 1,
+   "target": 0,
+   "performer": 1
+  }
+ ],
+ "tags": [
+  "babo",
+  "bakafactory",
+  "bestiality",
+  "blowjob",
+  "cf",
+  "creature",
+  "dirty",
+  "missionary",
+  "movingdick",
+  "oral",
+  "vampirelord",
+  "lustful"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "name": "Babo(Werewolf) Doggy 2",
+ "modpack": "BakaCreatures",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "BakaOWerewolfDoggy01-3",
+   "description": "Next",
+   "icon": "OStim/symbols/next"
+  },
+  {
+   "destination": "BakaOWerewolfHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "BakaO_WerewolfDoggy01_S2"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female"
+  }
+ ],
+ "actions": [
+  {
+   "type": "vaginalsex",
+   "actor": 0,
+   "target": 1,
+   "performer": 0
+  }
+ ],
+ "tags": [
+  "babo",
+  "bakafactory",
+  "bang",
+  "bestiality",
+  "cf",
+  "creature",
+  "dirty",
+  "doggy",
+  "forced",
+  "movingdick",
+  "rough",
+  "standing",
+  "vaginal",
+  "werewolf",
+  "doggystyle",
+  "aggressive"
+ ]
+}

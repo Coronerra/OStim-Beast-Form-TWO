@@ -1,0 +1,74 @@
+{
+ "name": "Billyy (Werewolf) Reverse Cowgirl",
+ "modpack": "BillyyCreatures",
+ "length": 8,
+ "navigations": [
+  {
+   "destination": "BillyyWerewolfReverseCowgirl-5",
+   "description": "Back",
+   "icon": "OStim/symbols/previous"
+  },
+  {
+   "destination": "BillyyWerewolfHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "B_WW_B_RCow_S6"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing",
+    "climaxing"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "kneeling",
+    "climaxing"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "type": "vaginalsex",
+   "actor": 0,
+   "target": 1
+  }
+ ],
+ "tags": [
+  "billyy",
+  "creature",
+  "werewolves",
+  "werewolf",
+  "bestiality",
+  "cf",
+  "dirty",
+  "cowgirl",
+  "rough",
+  "creampie",
+  "knotted",
+  "movingdick",
+  "abc",
+  "vaginal",
+  "lustful"
+ ],
+ "noRandomSelection": true,
+ "destination": "BillyyWerewolfReverseCowgirl-5"
+}

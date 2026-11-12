@@ -1,0 +1,10 @@
+SUPERSEDED IN 0.4 - DO NOT APPLY.
+
+This file used to hold a proposed C++ change to OStimNet's GetNearbyActors.
+OStimNet 2.2.2+ already has a setting for that filter:
+  SkyrimNet plugin config > OStimNet > General > "Nearby actors humanoid only"
+  (tton.nearbyActors.humanoidOnly, default ON).
+Turning it OFF lets beast-form players through, but ALSO lists every animal and
+creature nearby as a partner, so 0.4 leaves it ON and instead ships the
+prompt-only bundle SKSE/Plugins/SkyrimNet/external/coronerra.beastform_ostimnet.
+See OStimNet_SkyrimNet_Integration_0.4.txt.

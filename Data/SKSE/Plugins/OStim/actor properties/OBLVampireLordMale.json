@@ -1,0 +1,17 @@
+{
+	"condition": {
+		"info": "OBL_VampireLordMaleCondition",
+		"mod": "OStim_Beast_Form_TWO.esp",
+		"formid": "0x812"
+	},
+	"type": "VampireLord",
+	"requirements": {
+		"penis": true,
+		"testicles": true,
+		"nipple": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

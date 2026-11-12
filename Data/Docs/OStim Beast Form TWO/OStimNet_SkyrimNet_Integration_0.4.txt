@@ -1,0 +1,48 @@
+OStim Beast Form Merged 0.4 - SkyrimNet / OStimNet integration notes
+====================================================================
+Racial addon for the PLAYER werewolf and Vampire Lord.
+
+What OStimNet actually uses (read from OStimNet 2.5.7 source + OStim NG 7.5.1c)
+- Scene picking (StartNewSex, position changes, advancement): OLibrary random search
+  over ALL scenes by actor types, scene tags (intent/position) and "sexual" actions,
+  then WarpTo. It does NOT walk hub navigations. Hubs/idles matter only for the
+  player's own OStim menu. noRandomSelection pages and idle scenes are never picked.
+- Actor order: OStim sorts penis-havers first, then matches actor slots in order.
+  Male WW/VL player + woman -> WW/VL slot 0 -> Beast Form/Billyy/Baka/Fluffy/FunnyBiz
+  scenes match. Female WW player + man -> man sorted first -> WWF_OnTop scenes
+  (female WW in slot 0) cannot be picked by OStimNet; use the hub for those.
+- Intents live in scene tags (Navigator copies them from the ONE
+  OStimNetMetaData.json). Untagged = usable by every intent.
+- Descriptions: every *.json in SKSE/Plugins/OStimNet/animationsDescriptions is loaded.
+- Partners: get_nearby_actors_not_in_ostim keeps only ActorTypeNPC races while
+  "Nearby actors humanoid only" is ON. WerewolfBeastRace / DLC1VampireBeastRace lack
+  ActorTypeNPC, so a beast-form player is never listed as an NPC's partner.
+
+What 0.4 adds
+1. SKSE/Plugins/OStimNet/animationsDescriptions/zz OStim Beast Form Merged SkyrimNet.json
+   20 descriptions for Beast Form's OWN scenes only: OBFWerewolfIdleMF hub, the 14
+   OBF*/OBL* forwarding pages, and WWFCowgirl1-1..5 (their custom 'wwfvaginalsex'
+   action has no Navigator phrase, so auto descriptions were blank/wrong).
+   NOT included: OCrWerewolfIdle*/OCrVampireLordIdleFM (already described by
+   "zz OCreatures Reforged SkyrimNet Patch.json"; same pose, kept), and every
+   Billyy/Baka/FluffyFox/FunnyBiz sex scene (Lirael patches own those).
+2. Intent tag "lustful" on WWFCowgirl1-1/2/4/5 (female werewolf rides a passive man:
+   she is in control -> lustful, per coronerra/Lirael rules). Stage 3 keeps its existing
+   "romantic" tag. Idles/hubs get no intent (an intent tag would hide them).
+   No OStimNetMetaData.json is shipped (it would replace OStimNet's/Lirael's file).
+3. SkyrimNet bundle coronerra.beastform_ostimnet (prompt only, nsfw):
+   prompts/submodules/user_final_instructions/0510_beastform_ostimnet_partner.prompt
+   Renders only when TT_OStimNet.esp is loaded, the player's race is "Werewolf" or
+   "Vampire Lord", the speaking NPC is within 2000 units, neither is in an OStim
+   thread, and is_start_new_sex_available(npc) == "available". It tells the NPC the
+   player can still be named as StartNewSex participant1, that the NPC decides by
+   personality (refusal is fine), and the intent rules (lustful/dom; aggressive only
+   if clearly forced; blowjob lustful; NPC leading a passive beast = lustful).
+   No OStimNet action, prompt, decorator or setting is overridden.
+   Keep OStimNet "Nearby actors humanoid only" ON (turning it off adds animals).
+4. Beast Aware (coronerra.beastaware, unchanged) still describes the beast form.
+
+Not changed: plugin, scripts, HKX/events (no Pandora run), OCR/Lirael files.
+The 0.4 HUB FIX is described in README_OStim_Beast_Form_Merged.txt.
+VersuchDrei's October 2026 OStim NG commits (refined groping actions incl. new
+gropingchest; new inter-plugin messaging channel) did not change hub/menu code.

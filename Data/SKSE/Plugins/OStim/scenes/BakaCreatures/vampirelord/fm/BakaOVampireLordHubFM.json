@@ -1,0 +1,42 @@
+{
+    "name": "Baka VampireLord Hub",
+    "modpack": "BakaCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrVampireLordIdleFM",
+            "description": "Baka VampireLord Hub",
+            "icon": "OStim/sensual/vampirebite"
+        },
+        {
+            "destination": "OCrVampireLordIdleFM",
+            "description": "Exit Hub",
+            "icon": "OBeastLite/hub/hub",
+            "priority": -1000
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "BakaO_VampireSucking_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "VampireLord",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ]
+        },
+        {
+            "intendedSex": "female"
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "vampirelord"
+    ],
+    "noRandomSelection": true
+}

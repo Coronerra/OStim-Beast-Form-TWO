@@ -1,0 +1,48 @@
+{
+ "name": "OBLWerewolfHubFFM",
+ "modpack": "OBeastLite",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "OCrWerewolfIdleFFM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub"
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "OBF_B_WW_B_FFCServKneel_S1"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "animationIndex": 0,
+   "requirements": [
+    "penis"
+   ],
+   "tags": [
+    "standing"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "animationIndex": 1,
+   "tags": [
+    "standing"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "animationIndex": 2,
+   "tags": [
+    "standing"
+   ]
+  }
+ ],
+ "tags": [
+  "creature"
+ ],
+ "noRandomSelection": true
+}

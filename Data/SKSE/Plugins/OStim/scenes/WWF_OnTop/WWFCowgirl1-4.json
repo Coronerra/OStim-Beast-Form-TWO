@@ -1,0 +1,88 @@
+{
+    "name": "WW Female Cowgirl 4 (TEST)",
+    "modpack": "WWF_OnTop",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "WWFCowgirl1-5",
+            "description": "Next"
+        },
+        {
+            "destination": "WWFCowgirl1-3",
+            "description": "Back"
+        },
+        {
+            "destination": "OBFWerewolfIdleMF",
+            "description": "Werewolf Hub",
+            "icon": "OBeastLite/hub/hub",
+            "priority": -999
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "WWFCowgirl1_4",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "actors": [
+        {
+            "intendedSex": "female",
+            "feetOnGround": false,
+            "tags": [
+                "kneeling",
+                "ontop"
+            ],
+            "autoTransitions": {
+                "climax": "BillyyCowgirl1-5"
+            },
+            "type": "Werewolf"
+        },
+        {
+            "intendedSex": "male",
+            "sosBend": 2,
+            "scale": 1,
+            "feetOnGround": false,
+            "tags": [
+                "lyingback"
+            ],
+            "autoTransitions": {
+                "climax": "BillyyCowgirl1-5"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "wwfvaginalsex",
+            "actor": 1,
+            "target": 0,
+            "performer": 0
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "holdinghip"
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "mounting"
+        }
+    ],
+    "tags": [
+        "billyy",
+        "billyyext",
+        "converted",
+        "cowgirl",
+        "creampie",
+        "creature",
+        "laying",
+        "lustful",
+        "mf",
+        "sex",
+        "slal",
+        "straight",
+        "vaginal",
+        "werewolf"
+    ]
+}

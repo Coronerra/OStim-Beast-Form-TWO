@@ -1,0 +1,74 @@
+{
+ "name": "Billyy (Werewolf) Standing 2",
+ "modpack": "BillyyCreatures",
+ "length": 8,
+ "navigations": [
+  {
+   "destination": "BillyyWerewolfStanding2-4",
+   "description": "Back",
+   "icon": "OStim/symbols/previous"
+  },
+  {
+   "destination": "BillyyWerewolfHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "B_WW_B_Stand2_S5"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing",
+    "climaxing"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "standing",
+    "climaxing"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "type": "vaginalsex",
+   "actor": 0,
+   "target": 1
+  }
+ ],
+ "tags": [
+  "billyy",
+  "creature",
+  "werewolves",
+  "werewolf",
+  "bestiality",
+  "cf",
+  "dirty",
+  "rough",
+  "standing",
+  "knotted",
+  "creampie",
+  "movingdick",
+  "abc",
+  "vaginal",
+  "lustful"
+ ],
+ "noRandomSelection": true,
+ "destination": "BillyyWerewolfStanding2-4"
+}

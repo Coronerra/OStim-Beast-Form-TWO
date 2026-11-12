@@ -1,0 +1,59 @@
+{
+ "name": "FlufyFox Werewolf Vanhelsing Howl 2",
+ "modpack": "FlufyCreatures",
+ "length": 8,
+ "navigations": [
+  {
+   "destination": "FlufyOWerewolfHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "FlufyO_wwvanhel_S2"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "requirements": [
+    "penis"
+   ],
+   "tags": [
+    "climaxing"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "climaxing"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "type": "default",
+   "actor": 0
+  }
+ ],
+ "tags": [
+  "bestiality",
+  "creature",
+  "cute",
+  "flufyfox",
+  "foreplay",
+  "pet",
+  "pose",
+  "werewolf",
+  "aggressive"
+ ],
+ "destination": "FlufyOwwvanhel-1"
+}

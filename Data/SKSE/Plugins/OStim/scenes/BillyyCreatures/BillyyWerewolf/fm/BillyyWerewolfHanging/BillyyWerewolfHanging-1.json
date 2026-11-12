@@ -1,0 +1,77 @@
+{
+ "name": "Billyy (Werewolf) Hanging",
+ "modpack": "BillyyCreatures",
+ "length": 2,
+ "navigations": [
+  {
+   "origin": "BillyyWerewolfHubFM",
+   "description": "Billyy (Werewolf) Hanging",
+   "icon": "OCreatures/werewolf/werewolf"
+  },
+  {
+   "destination": "BillyyWerewolfHanging-2",
+   "description": "Next",
+   "icon": "OStim/symbols/next"
+  },
+  {
+   "destination": "BillyyWerewolfHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "B_WW_B_Hang_S1"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "tags": [
+    "standing"
+   ],
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female",
+   "tags": [
+    "standing"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "type": "vaginalsex",
+   "actor": 0,
+   "target": 1
+  }
+ ],
+ "tags": [
+  "billyy",
+  "creature",
+  "werewolves",
+  "werewolf",
+  "bestiality",
+  "cf",
+  "dirty",
+  "rough",
+  "standing",
+  "holding",
+  "hanging",
+  "knotted",
+  "creampie",
+  "movingdick",
+  "abc",
+  "vaginal",
+  "lustful"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+    "name": "BillyyWerewolfHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrWerewolfIdleFM",
+            "description": "Billyy Werewolf",
+            "icon": "OCreatures/werewolf/werewolf"
+        },
+        {
+            "destination": "OCrWerewolfIdleFM",
+            "description": "Return",
+            "icon": "OBeastLite/hub/hub",
+            "priority": -1000
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_WW_B_Dog2_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "Werewolf",
+            "intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "Werewolf"
+    ],
+    "noRandomSelection": true
+}

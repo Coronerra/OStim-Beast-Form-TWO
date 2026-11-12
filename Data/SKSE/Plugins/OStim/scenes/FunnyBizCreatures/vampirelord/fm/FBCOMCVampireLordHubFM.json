@@ -1,0 +1,51 @@
+{
+    "name": "FunnyBiz Male Creatures VampireLord FM",
+    "modpack": "FunnyBizCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrVampireLordIdleFM",
+            "description": "FunnyBiz Male Creatures VampireLord",
+            "icon": "OStim/funnybizcreatures",
+            "priority": -100
+        },
+        {
+            "destination": "OCrVampireLordIdleFM",
+            "description": "Return",
+            "icon": "OBeastLite/hub/hub",
+            "priority": -1000
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Vamp_B_Dog_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "VampireLord",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ],
+            "intendedSex": "male"
+        },
+        {
+            "tags": [
+                "standing"
+            ],
+            "intendedSex": "female"
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "vampirelord",
+        "funnybiz",
+        "packmalecreatures"
+    ],
+    "noRandomSelection": true
+}

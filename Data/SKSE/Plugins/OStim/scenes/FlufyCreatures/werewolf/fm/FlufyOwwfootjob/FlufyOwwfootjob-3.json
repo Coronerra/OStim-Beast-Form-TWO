@@ -1,0 +1,58 @@
+{
+ "name": "FlufyFox WW Footjob 3",
+ "modpack": "FlufyCreatures",
+ "length": 2,
+ "navigations": [
+  {
+   "destination": "FlufyOwwfootjob-4",
+   "description": "Next",
+   "icon": "OStim/symbols/next"
+  },
+  {
+   "destination": "FlufyOWerewolfHubFM",
+   "description": "Return",
+   "icon": "OStim/symbols/return"
+  },
+  {
+   "destination": "OCrWerewolfIdleFM",
+   "description": "Werewolf Hub",
+   "icon": "OBeastLite/hub/hub",
+   "priority": -999
+  }
+ ],
+ "speeds": [
+  {
+   "animation": "FlufyO_wwfootjob_S3"
+  }
+ ],
+ "actors": [
+  {
+   "type": "Werewolf",
+   "intendedSex": "male",
+   "requirements": [
+    "penis"
+   ]
+  },
+  {
+   "intendedSex": "female"
+  }
+ ],
+ "actions": [
+  {
+   "type": "default",
+   "actor": 0
+  }
+ ],
+ "tags": [
+  "abc",
+  "bestiality",
+  "cf",
+  "creature",
+  "cute",
+  "flufyfox",
+  "footjob",
+  "foreplay",
+  "werewolf",
+  "lustful"
+ ]
+}

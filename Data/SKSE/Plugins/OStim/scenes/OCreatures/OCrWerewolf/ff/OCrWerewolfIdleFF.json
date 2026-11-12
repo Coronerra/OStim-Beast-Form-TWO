@@ -1,0 +1,33 @@
+{
+    "name": "OCrWerewolfIdleFF",
+    "modpack": "OBeastLite",
+    "length": 2,
+    "navigations": [],
+    "speeds": [
+        {
+            "animation": "OBF_B_WW_B_FF_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "Werewolf",
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "werewolf"
+    ],
+    "noRandomSelection": true
+}
